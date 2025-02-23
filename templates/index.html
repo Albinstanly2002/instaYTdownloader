@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>YTInstaDownloader</title>
+</head>
+<body>
+
+    <div>
+        <div class="insta">
+            <h1 class="instah1">Instagram Downloader</h1>
+            <div class="in">
+                <label class="isntalabel" for="instaurl">Enter the URL:</label>
+                <input class="instaurl" id="instaurl" type="url" placeholder="Enter a valid URL">
+            </div>
+            <button class="instabtn" id="instabtn">DOWNLOAD</button>
+            <p id="insta-result"></p>
+        </div>
+
+        <div class="yt">
+            <h1 class="yth1">YouTube <br> Downloader</h1>
+            <div class="inyt">
+                <label class="ytlabel" for="yturl">Enter the URL:</label>
+                <input class="yturl" id="yturl" type="url" placeholder="Enter a valid URL">
+            </div>
+            <button class="ytbtn" id="ytbtn">DOWNLOAD</button>
+            <p id="yt-result"></p>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("instabtn").addEventListener("click", function () {
+            let url = document.getElementById("instaurl").value;
+            fetch("/download/instagram", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ url: url })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.error) {
+                    document.getElementById("insta-result").innerText = "Error: " + data.error;
+                } else {
+                    document.getElementById("insta-result").innerHTML = `<a href="${data.download_link}" target="_blank">Download Here</a>`;
+                }
+            });
+        });
+
+        document.getElementById("ytbtn").addEventListener("click", function () {
+            let url = document.getElementById("yturl").value;
+            fetch("/download/youtube", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ url: url })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.error) {
+                    document.getElementById("yt-result").innerText = "Error: " + data.error;
+                } else {
+                    document.getElementById("yt-result").innerHTML = `<a href="${data.thumbnail}" target="_blank">View Thumbnail</a>`;
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>

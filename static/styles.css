@@ -1,0 +1,187 @@
+body{
+
+    height: 100vh;
+    
+    background: radial-gradient(at 27.039556858793944% 49.872697504762776%, hsla(0, 0%, 0%, 1) 0%, hsla(0, 0%, 0%, 0) 100%), radial-gradient(at 99.0082892251624% 32.50683186590735%, hsla(299.03743315508024, 100%, 36.666666666666664%, 1) 0%, hsla(299.03743315508024, 100%, 36.666666666666664%, 0) 100%), radial-gradient(at 98.78686439274787% 44.730245669865724%, hsla(223.1020408163265, 100%, 51.9607843137255%, 1) 0%, hsla(223.1020408163265, 100%, 51.9607843137255%, 0) 100%), radial-gradient(at 56.99257672748694% 20.769820041111263%, hsla(0, 0%, 0%, 1) 0%, hsla(0, 0%, 0%, 0) 100%), radial-gradient(at 61.05004863915341% 36.36207460789087%, hsla(299.03743315508024, 100%, 36.666666666666664%, 1) 0%, hsla(299.03743315508024, 100%, 36.666666666666664%, 0) 100%), radial-gradient(at 32.279212374279695% 16.93903461224846%, hsla(223.1020408163265, 100%, 51.9607843137255%, 1) 0%, hsla(223.1020408163265, 100%, 51.9607843137255%, 0) 100%), radial-gradient(at 47.66104666768941% 33.277319242592554%, hsla(0, 0%, 0%, 1) 0%, hsla(0, 0%, 0%, 0) 100%), radial-gradient(at 28.805813957288418% 84.35103327808365%, hsla(299.03743315508024, 100%, 36.666666666666664%, 1) 0%, hsla(299.03743315508024, 100%, 36.666666666666664%, 0) 100%), radial-gradient(at 28.908128236576434% 76.41028479134842%, hsla(223.1020408163265, 100%, 51.9607843137255%, 1) 0%, hsla(223.1020408163265, 100%, 51.9607843137255%, 0) 100%), radial-gradient(at 79.84564015946579% 82.8924792025433%, hsla(0, 0%, 0%, 1) 0%, hsla(0, 0%, 0%, 0) 100%), radial-gradient(at 26.723211536869908% 13.486840938556188%, hsla(299.03743315508024, 100%, 36.666666666666664%, 1) 0%, hsla(299.03743315508024, 100%, 36.666666666666664%, 0) 100%);            
+}
+
+
+.insta{
+
+    width: 500px;
+    height: 500px;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-left: 180px;
+    margin-top: 200px;
+    
+    background: radial-gradient(at 87.43387746550081% 4.785152060424069%, hsla(23.88625592417062, 89.78723404255318%, 46.07843137254902%, 1) 0%, hsla(23.88625592417062, 89.78723404255318%, 46.07843137254902%, 0) 100%), radial-gradient(at 32.80302626079792% 83.11610139373037%, hsla(286.984126984127, 90.43062200956939%, 40.98039215686274%, 1) 0%, hsla(286.984126984127, 90.43062200956939%, 40.98039215686274%, 0) 100%), radial-gradient(at 96.66727959856973% 7.94368322865826%, hsla(330.99337748344374, 87.28323699421969%, 66.07843137254902%, 1) 0%, hsla(330.99337748344374, 87.28323699421969%, 66.07843137254902%, 0) 100%), radial-gradient(at 50.590574265284836% 88.51813966949531%, hsla(191.566265060241, 67.47967479674793%, 75.88235294117646%, 1) 0%, hsla(191.566265060241, 67.47967479674793%, 75.88235294117646%, 0) 100%), radial-gradient(at 33.767340057615634% 61.570026263986136%, hsla(23.88625592417062, 89.78723404255318%, 46.07843137254902%, 1) 0%, hsla(23.88625592417062, 89.78723404255318%, 46.07843137254902%, 0) 100%), radial-gradient(at 86.53530480117789% 59.83729101036494%, hsla(286.984126984127, 90.43062200956939%, 40.98039215686274%, 1) 0%, hsla(286.984126984127, 90.43062200956939%, 40.98039215686274%, 0) 100%), radial-gradient(at 45.14414025914011% 11.825821526198887%, hsla(330.99337748344374, 87.28323699421969%, 66.07843137254902%, 1) 0%, hsla(330.99337748344374, 87.28323699421969%, 66.07843137254902%, 0) 100%), radial-gradient(at 86.30658760268392% 19.558358690284084%, hsla(191.566265060241, 67.47967479674793%, 75.88235294117646%, 1) 0%, hsla(191.566265060241, 67.47967479674793%, 75.88235294117646%, 0) 100%);            
+}
+
+.instah1{
+
+    font-family: monospace;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+    
+}
+
+.isntalabel{
+    
+    font-family: monospace;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+
+}
+
+.instaurl{
+
+
+    height: 40px;
+    width: 400px;
+    border-radius: 30px;
+    border: .5px solid black;
+    justify-self: center;
+    align-self: center;
+}
+
+.in{
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.instabtn{
+
+
+    height: 38px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    font-family: monospace;
+   margin-left: 150px;
+    font-size: 20px;
+    border-radius: 30px;
+    margin-top: 50px;
+
+
+}
+
+.instabtn:hover{
+
+
+    height: 43px;
+    width: 210px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+   margin-left: 150px;
+    font-size: 20px;
+    border-radius: 30px;
+    margin-top: 50px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.yt{
+
+    width: 500px;
+    height: 500px;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-left: 850px;
+    margin-top: -500px;
+    background: radial-gradient(at 84.44523506486948% 89.59065356520502%, hsla(0, 71.76470588235293%, 50%, 1) 0%, hsla(0, 71.76470588235293%, 50%, 0) 100%), radial-gradient(at 10.31588434540527% 14.885415437835615%, hsla(0, 0%, 7.8431372549019605%, 1) 0%, hsla(0, 0%, 7.8431372549019605%, 0) 100%), radial-gradient(at 71.05192758320658% 12.746366199329518%, hsla(0, 99.2%, 49.01960784313725%, 1) 0%, hsla(0, 99.2%, 49.01960784313725%, 0) 100%), radial-gradient(at 26.106391421716737% 36.84263603436959%, hsla(0, 0%, 1.9607843137254901%, 1) 0%, hsla(0, 0%, 1.9607843137254901%, 0) 100%), radial-gradient(at 17.339985195486875% 36.88400973949841%, hsla(0, 71.76470588235293%, 50%, 1) 0%, hsla(0, 71.76470588235293%, 50%, 0) 100%), radial-gradient(at 48.9944742422787% 80.4963886402881%, hsla(0, 0%, 7.8431372549019605%, 1) 0%, hsla(0, 0%, 7.8431372549019605%, 0) 100%), radial-gradient(at 4.317734464630663% 1.4989254767351357%, hsla(0, 99.2%, 49.01960784313725%, 1) 0%, hsla(0, 99.2%, 49.01960784313725%, 0) 100%), radial-gradient(at 33.277099082245876% 50.81387742142998%, hsla(0, 0%, 1.9607843137254901%, 1) 0%, hsla(0, 0%, 1.9607843137254901%, 0) 100%), radial-gradient(at 88.66232175080756% 85.31451652240413%, hsla(0, 71.76470588235293%, 50%, 1) 0%, hsla(0, 71.76470588235293%, 50%, 0) 100%), radial-gradient(at 76.45027074954382% 85.2788566640157%, hsla(0, 0%, 7.8431372549019605%, 1) 0%, hsla(0, 0%, 7.8431372549019605%, 0) 100%), radial-gradient(at 50.93522511103923% 72.24746519095295%, hsla(0, 99.2%, 49.01960784313725%, 1) 0%, hsla(0, 99.2%, 49.01960784313725%, 0) 100%);            
+   
+}
+
+.yth1{
+
+    font-family: monospace;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+    
+}
+
+.ytlabel{
+    
+    font-family: monospace;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+
+}
+
+.yturl{
+
+
+    height: 40px;
+    width: 400px;
+    border-radius: 30px;
+    border: .5px solid black;
+    justify-self: center;
+    align-self: center;
+}
+
+.inyt{
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ytbtn{
+
+
+    height: 38px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    font-family: monospace;
+   margin-left: 150px;
+    font-size: 20px;
+    border-radius: 30px;
+    margin-top: 50px;
+
+
+}
+
+.ytbtn:hover{
+
+
+    height: 43px;
+    width: 210px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+   margin-left: 150px;
+    font-size: 20px;
+    border-radius: 30px;
+    margin-top: 50px;
+
+
+}
